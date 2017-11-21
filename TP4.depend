@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1510702688 source:c:\users\melissa\desktop\cosas de ale\progra 2\tp4\main.cpp
+1511134495 source:c:\users\melissa\desktop\cosas de ale\progra 2\tp4\main.cpp
 	<iostream>
 	"Lector.h"
 	"ListaPaices.h"
 
-1510703370 source:c:\users\melissa\desktop\cosas de ale\progra 2\tp4\src\lector.cpp
+1511133128 source:c:\users\melissa\desktop\cosas de ale\progra 2\tp4\src\lector.cpp
 	"Lector.h"
 
-1510700727 c:\users\melissa\desktop\cosas de ale\progra 2\tp4\include\lector.h
+1511133128 c:\users\melissa\desktop\cosas de ale\progra 2\tp4\include\lector.h
 	<istream>
 	<sstream>
 	<fstream>
@@ -16,19 +16,20 @@
 	"ListaPaices.h"
 	<cstdlib>
 
-1510701863 source:c:\users\melissa\desktop\cosas de ale\progra 2\tp4\src\listapaices.cpp
+1511136782 source:c:\users\melissa\desktop\cosas de ale\progra 2\tp4\src\listapaices.cpp
 	"ListaPaices.h"
 
-1510631233 c:\users\melissa\desktop\cosas de ale\progra 2\tp4\include\listapaices.h
+1510787456 c:\users\melissa\desktop\cosas de ale\progra 2\tp4\include\listapaices.h
 	<list>
 	"Pais.h"
 	<iostream>
 	<sstream>
+	<algorithm>
 
-1510701891 c:\users\melissa\desktop\cosas de ale\progra 2\tp4\include\pais.h
+1511137573 c:\users\melissa\desktop\cosas de ale\progra 2\tp4\include\pais.h
 	<iostream>
 	<sstream>
 
-1510702003 source:c:\users\melissa\desktop\cosas de ale\progra 2\tp4\src\pais.cpp
+1510782777 source:c:\users\melissa\desktop\cosas de ale\progra 2\tp4\src\pais.cpp
 	"Pais.h"
 

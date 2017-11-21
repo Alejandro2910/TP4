@@ -10,8 +10,8 @@ class Pais
     public:
         string nombre;
         string region;
-        float poblacion;
-        float area;
+        int poblacion;
+        int area;
         float densidadPoblac;
         float lineaCostera;
         float migracion;
@@ -30,7 +30,7 @@ class Pais
         float servicio;
 
         Pais();
-        void setValores(string, string, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float);
+        void setValores(string, string, int, int, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float);
         virtual ~Pais();
         string muestreDatosPais();
 
