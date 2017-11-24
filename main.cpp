@@ -1,23 +1,27 @@
 #include <iostream>
 #include "Lector.h"
-#include "ListaPaices.h"
+#include "ListaObjetos.h"
+#include <list>
 
 using namespace std;
 
 int main()
 {
     Lector l;
-    ListaPaices lp;
-    list<Pais>::iterator iter;
-
-    l.abraParaLeer("datos prueba 1.txt");
-    l.leaDeArchivo(lp.paices);
+    ListaObjetos lo;
+    list<Objeto>::iterator iter;
+    string nombreArch="";
+    cout<<"De el nombre del archivo a leer: ";
+    cin>>nombreArch;
+    l.abraParaLeer(nombreArch);
+    l.leaNombres();
+    l.leaTipo();
+    l.leaObjetos(lo.listaDeObjetos);
     l.cierreLeido();
 
-    for(iter=(lp.paices).begin();iter!=(lp.paices).end();iter++){
-        cout<<(*iter).muestreDatosPais()<<endl;
-        cout<<endl;
-    }
-    //cout<<"Paices: "<<"\n"<<lp.muestrePaices()<<endl;
+//    for(iter=(lo.listaDeObjetos).begin();iter!=(lo.listaDeObjetos).end();iter++){
+//        cout<<(*iter).muestreDatosPais()<<endl;
+//        cout<<endl;
+//    }
     return 0;
 }
