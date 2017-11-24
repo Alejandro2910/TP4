@@ -4,20 +4,23 @@
 #include <sstream>
 #include <fstream>
 #include <iostream>
-#include "Pais.h"
-#include "ListaPaices.h"
+#include "Objeto.h"
 #include <cstdlib>
-
+#include <vector>
+#include <list>
 
 using namespace std;
-
 
 class Lector
 {
     public:
         ifstream lect;
+        vector<string> nombresObj;
+        vector<string> tipoDatos;
 
-        void leaDeArchivo(list<Pais>&);
+        void leaObjetos(list<Objeto>&);
+        void leaNombres();
+        void leaTipo();
         void abraParaLeer(string);
         void cierreLeido();
 

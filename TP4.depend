@@ -1,20 +1,22 @@
 # depslib dependency file v1.0
-1511134495 source:c:\users\melissa\desktop\cosas de ale\progra 2\tp4\main.cpp
+1511502418 source:c:\users\melissa\desktop\cosas de ale\progra 2\tp4\main.cpp
 	<iostream>
 	"Lector.h"
-	"ListaPaices.h"
+	"ListaObjetos.h"
+	<list>
 
-1511133128 source:c:\users\melissa\desktop\cosas de ale\progra 2\tp4\src\lector.cpp
+1511502715 source:c:\users\melissa\desktop\cosas de ale\progra 2\tp4\src\lector.cpp
 	"Lector.h"
 
-1511133128 c:\users\melissa\desktop\cosas de ale\progra 2\tp4\include\lector.h
+1511502661 c:\users\melissa\desktop\cosas de ale\progra 2\tp4\include\lector.h
 	<istream>
 	<sstream>
 	<fstream>
 	<iostream>
-	"Pais.h"
-	"ListaPaices.h"
+	"Objeto.h"
 	<cstdlib>
+	<vector>
+	<list>
 
 1511136782 source:c:\users\melissa\desktop\cosas de ale\progra 2\tp4\src\listapaices.cpp
 	"ListaPaices.h"
@@ -32,4 +34,12 @@
 
 1510782777 source:c:\users\melissa\desktop\cosas de ale\progra 2\tp4\src\pais.cpp
 	"Pais.h"
+
+1511502817 c:\users\melissa\desktop\cosas de ale\progra 2\tp4\include\objeto.h
+	<vector>
+	<string>
+
+1511502756 c:\users\melissa\desktop\cosas de ale\progra 2\tp4\include\listaobjetos.h
+	<list>
+	"Objeto.h"
 

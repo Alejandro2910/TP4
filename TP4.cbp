@@ -35,12 +35,12 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Lector.h" />
-		<Unit filename="include/ListaPaices.h" />
-		<Unit filename="include/Pais.h" />
+		<Unit filename="include/ListaObjetos.h" />
+		<Unit filename="include/Objeto.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Lector.cpp" />
-		<Unit filename="src/ListaPaices.cpp" />
-		<Unit filename="src/Pais.cpp" />
+		<Unit filename="src/ListaObjetos.cpp" />
+		<Unit filename="src/Objeto.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
